@@ -439,13 +439,13 @@
 # print(conveters.lbs_to_kg(100))
 
 # EXERCISE
-numbers =[10,3,6,20]
-max=numbers[0]
-for number in numbers:
-    if number>max:
-        max=number
+# numbers =[10,3,6,20]
+# max=numbers[0]
+# for number in numbers:
+#     if number>max:
+#         max=number
 
-print(max)
+# print(max)
 
 # from utils import find_max
 
@@ -456,3 +456,6 @@ print(max)
 # print(maximum(numbers))
 
 
+#PACKAGES
+from ecomerce.shipping import calc_shipping
+calc_shipping()
