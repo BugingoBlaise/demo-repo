@@ -284,12 +284,12 @@
 #     output += emojis.get(word, word)+" "
 # print(output)
 
-#USING FUNCTIONS
+# USING FUNCTIONS
 # def greet_user():
 #     print('Hi there')
 #     print('Welcome abroad')
-#
-#
+
+
 # print('start')
 # greet_user()
 # print('finish')
@@ -439,20 +439,20 @@
 # print(conveters.lbs_to_kg(100))
 
 # EXERCISE
-# numbers =[10,3,6,20]
-# max=numbers[0]
-# for number in numbers:
-#     if number>max:
-#         max=number
-#
-# print(max)
+numbers =[10,3,6,20]
+max=numbers[0]
+for number in numbers:
+    if number>max:
+        max=number
 
-from utils import find_max
+print(max)
 
-numbers=[5,100,200,50,70,900,6]
+# from utils import find_max
 
-maximum=find_max(numbers)
+# numbers=[5,100,200,50,70,900,6]
 
-print(maximum(numbers))
+# maximum=find_max(numbers)
+
+# print(maximum(numbers))
 
 
